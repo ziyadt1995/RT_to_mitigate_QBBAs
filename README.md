@@ -11,7 +11,7 @@ We provide the CIFAR-10 and Tiny ImageNet shuffled images in our repository.
 
 We recommend running the code on SPYDER IDE using Anaconda (https://www.anaconda.com/). 
 
-To Launch attacks, run the files by selecting their code "as selection" in spyder IDE. Use following files:
+To launch attacks, run the files by selecting their code "as selection" in spyder IDE. Use following files:
 
 1. attack_imagenet.py
 2. attack_cifar10.py
