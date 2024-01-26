@@ -5,7 +5,7 @@ We have modified the codebase of BlackBox Bench (https://github.com/SCLBD/Blackb
 
 Once you have installed the robustness library please replace the entire files with the files we have provided to successfully run the code without errors. 
 
-The ResNet-50 models can be obtained from the Robustness Library (https://github.com/MadryLab/robustness). The ImageNet test images can be retrieved from TREMBA (https://github.com/TransEmbedBA/TREMBA).
+The ResNet-50 models can be obtained from the Robustness Library (https://github.com/MadryLab/robustness). The ImageNet test images can be retrieved from TREMBA (https://github.com/TransEmbedBA/TREMBA). You can download the trained PreActResNet18-based Tiny ImageNet model from " https://drive.google.com/drive/folders/1V2KeI2LRNA94GYoGKpZBzgZIAI1bQEQv?usp=sharing "
 
 We provide the CIFAR-10 and Tiny ImageNet shuffled images in our repository. 
 
