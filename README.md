@@ -1,4 +1,4 @@
-# RT_to_mitigate_QBBAs
+# Random Transformations to Mitigate Query-Based Black-Box Attacks
 This repository provides code for our paper "Random Transformations to Mitigate Query-Based Black-Box Attacks"
 
 We have modified the codebase of BlackBox Bench (https://github.com/SCLBD/BlackboxBench) and the Robustness Library (https://github.com/MadryLab/robustness).
