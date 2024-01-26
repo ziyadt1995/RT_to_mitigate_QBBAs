@@ -3,6 +3,8 @@ This repository provides code for our paper "Random Transformations to Mitigate 
 
 We have modified the codebase of BlackBox Bench (https://github.com/SCLBD/BlackboxBench) and the Robustness Library (https://github.com/MadryLab/robustness).
 
+Run the command "pip install -r requirementsnew.txt" to create the required Python environment with the necessary packages. 
+
 Once you have installed the robustness library please replace the entire files with the files we have provided to successfully run the code without errors. 
 
 The ResNet-50 models can be obtained from the Robustness Library (https://github.com/MadryLab/robustness). The ImageNet test images can be retrieved from TREMBA (https://github.com/TransEmbedBA/TREMBA). You can download the trained PreActResNet18-based Tiny ImageNet model from " https://drive.google.com/drive/folders/1V2KeI2LRNA94GYoGKpZBzgZIAI1bQEQv?usp=sharing "
@@ -17,6 +19,5 @@ To launch attacks, run the files by selecting their code "as selection" in Spyde
 2. attack_cifar10.py
 3. attack_tinyimagenet.py
 
-Run the command "pip install -r requirementsnew.txt" to create the required Python environment with the necessary packages. 
 
 NOTE: The copyrights of the code used in this repository belong to their respective creators.
