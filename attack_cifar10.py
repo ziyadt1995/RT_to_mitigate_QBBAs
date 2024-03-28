@@ -68,7 +68,7 @@ from attacks.decision.rays_attack import RaySAttack
 #from attacks.decision.boundary_attack import BoundaryAttack
 
 if __name__ == '__main__':
-    config = "../BlackboxBench/config-jsons/cifar10_square_linf_config.json" #os.sys.argv[1]
+    config = "../RT_to_mitigate_QBBAs/config-jsons/cifar10_square_linf_config.json" #os.sys.argv[1]
     exp_id = config.split('/')[-1]
     print("Running Experiment {}".format(exp_id))
 
