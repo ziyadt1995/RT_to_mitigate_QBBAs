@@ -58,7 +58,7 @@ from attacks.decision.rays_attack import RaySAttack
 
 
 if (1):
-    config = "../BlackboxBench/config-jsons/imagenet_square_linf_config.json" #os.sys.argv[1]
+    config = "../RT_to_mitigate_QBBAs/config-jsons/imagenet_square_linf_config.json" #os.sys.argv[1]
     exp_id = config.split('/')[-1]
     print("Running Experiment {}".format(exp_id))
 
