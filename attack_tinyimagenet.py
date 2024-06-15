@@ -120,7 +120,7 @@ class PreActResNet(nn.Module):
             self.in_planes = planes * block.expansion
         return nn.Sequential(*layers)
 
-    def forward(self, x, RND=False, RR=False, RFC=False, rfd=False):
+    def forward(self, x, RND=False, RR=False, RRC=False, rfd=False):
         if(RND==True):
             noise=torch.randn(x.shape[0], x.shape[1], x.shape[2], x.shape[3])
             #noise=noise.numpy()
